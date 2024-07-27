@@ -3,9 +3,8 @@
 </script>
 
 <template>
-    <h1>PAGE 02</h1>
-    <router-view></router-view>
-    <router-link to="/">Aller vers le page 1</router-link>
+    <h1>LOGIN PAGE</h1>
+    <router-link to="/plane/travail">votre travail</router-link>
 </template>
 
 <style scoped>
