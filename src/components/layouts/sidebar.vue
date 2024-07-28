@@ -45,7 +45,21 @@
             </li>
             <li
               class="nav-link"
-              :class="{ active: $route.path === '/plane/cycles' }"
+              :class="{
+                active:
+                  $route.path === '/plane/cycles' ||
+                  $route.path ===
+                    '/plane/cycles/Vue-de-10000-pieds-de-tous-les-cycles-actifs' ||
+                  $route.path ===
+                    '/plane/cycles/Obtenez-un-aperçu-de-chaque-cycle-actif' ||
+                  $route.path === '/plane/cycles/Comparez-les-burndowns' ||
+                  $route.path ===
+                    '/plane/cycles/Identifiez-rapidement-les-problèmes-décisifs' ||
+                  $route.path ===
+                    '/plane/cycles/Zoomer-sur-les-cycles-qui-nécessitent-une-attention-particulière' ||
+                  $route.path ===
+                    '/plane/cycles/Garder-une-longueur-d-avance-sur-les-bloqueurs',
+              }"
             >
               <router-link to="/plane/cycles">
                 <i class="ri-contrast-line icon"></i>
