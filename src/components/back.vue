@@ -1,6 +1,6 @@
 <script>
 export default {
-  props: ["ULR","textAfficher"],
+  props: ["ULR", "textAfficher"],
 };
 </script>
 
@@ -27,6 +27,11 @@ a {
   border-radius: 7px;
   font-weight: 600;
   background: var(--color-white);
+  color: var(--color-info-dark);
+  transition: var(--tran-02);
+}
+a:hover {
+  color: var(--color-primary);
 }
 i {
   font-size: 1.3rem;

@@ -29,7 +29,7 @@ export default {
 
             <navItemVue urlNavigator="/plane/cycles/Identifiez-rapidement-les-problèmes-décisifs" icon="ri-spam-2-line" titre="Identifiez rapidement les problèmes décisifs." description="Prévisualisez les problèmes prioritaires pour chaque cycles par rapport aux dates d'échéance. Visualisez-les tous par cycle en un clic."/>
 
-            <navItemVue urlNavigator="/plane/cycles/Zoomer-sur-les-cycles-qui-nécessitent-une-attention-particulière" icon="ri-search-line" titre="Zoomer sur les cycles qui nécessitent une attention particulière." description="Examinez l'état  de tout cycle qui n'est pas conforme aux attentes ..."/>
+            <navItemVue urlNavigator="/plane/cycles/Zoomer-sur-les-cycles-qui-nécessitent-une-attention-particulière" icon="ri-search-2-line" titre="Zoomer sur les cycles qui nécessitent une attention particulière." description="Examinez l'état  de tout cycle qui n'est pas conforme aux attentes ..."/>
 
             <navItemVue urlNavigator="/plane/cycles/Garder-une-longueur-d-avance-sur-les-bloqueurs" icon="ri-microscope-line" titre="Garder une longueur d'avance sur les bloqueurs." description="Réperez les défis d'un projet à l'autre et voyez les ..."/>
         </div>
