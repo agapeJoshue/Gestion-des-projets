@@ -224,6 +224,14 @@ export default {
 .sidebar li a:hover .text {
   color: var(--color-dark);
 }
+
+.sidebar li.activeP .text,
+.sidebar li.activeP .icon,
+.sidebar li a:hover .text,
+.sidebar li a:hover .icon {
+  color: var(--color-primary-variant);
+}
+
 body.dark .sidebar li.activeP .text,
 body.dark .sidebar li.activeP .icon {
   color: var(--color-dark);

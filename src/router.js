@@ -27,37 +27,27 @@ const routes = [
             {
                 path: 'projets',
                 component: projetPage,
-                children: [
-                    /* { path: '', component: votreTravailPage }, */
-                ]
+                children: []
             },
             {
                 path: 'affichages',
                 component: affichagePage,
-                children: [
-                    /* { path: '', component: votreTravailPage }, */
-                ]
+                children: []
             },
             {
                 path: 'cycles',
                 component: cyclesPage,
-                children: [
-                    /* { path: '', component: votreTravailPage }, */
-                ]
+                children: []
             },
             {
                 path: 'annalitics',
                 component: annaliticsPage,
-                children: [
-                    /* { path: '', component: votreTravailPage }, */
-                ]
+                children: []
             },
             {
                 path: 'profile',
                 component: profilePage,
-                children: [
-                    /* { path: '', component: votreTravailPage }, */
-                ]
+                children: []
             }
         ]
     }
