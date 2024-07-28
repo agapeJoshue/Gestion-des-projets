@@ -1,11 +1,11 @@
 <script>
-import navItemVue from './navItem.vue';
+import navItemVue from "./navItem.vue";
 
 export default {
-    components: {
-        navItemVue
-    }
-}
+  components: {
+    navItemVue,
+  },
+};
 </script>
 
 <template lang="">
@@ -38,45 +38,45 @@ export default {
 
 <style scoped>
 .content {
-    padding: 2rem 0rem 1rem 2rem;
-    max-height: 93vh;
-    overflow-y: overlay;
+  padding: 2rem 0rem 1rem 2rem;
+  max-height: 93vh;
+  overflow-y: overlay;
 }
 .content::-webkit-scrollbar {
-    width: 0px;
+  width: 0px;
 }
 .a-propos {
-    display: grid;
-    gap: 30%;
-    grid-template-columns: auto 40%;
+  display: grid;
+  gap: 30%;
+  grid-template-columns: auto 40%;
 }
 .titre {
-    margin-left: 4rem;
+  margin-left: 4rem;
 }
 h1 {
-    margin-top: 5rem;
-    margin-bottom: 1rem;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
 }
-p{
-    font-size: 1.1rem;
+p {
+  font-size: 1.1rem;
 }
 .image {
-    position: relative;
-    margin-right: 2rem;
+  position: relative;
+  margin-right: 2rem;
 }
 #img1 {
-    position: absolute;
-    bottom: -27px;
-    left: -78px;
-    width: 250px;
-    z-index: 2;
+  position: absolute;
+  bottom: -27px;
+  left: -78px;
+  width: 250px;
+  z-index: 2;
 }
 .nav-item {
-    margin-top: 5rem;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
-    align-items: center;
-    margin-right: 2rem;
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  align-items: center;
+  margin-right: 2rem;
 }
 </style>

@@ -8,6 +8,6 @@ export default {
 };
 </script>
 <template>
-  <header-vue title="Votre travail" />
+  <header-vue icon="ri-user-add-line" title="Votre travail" />
   <router-view></router-view>
 </template>

@@ -27,7 +27,11 @@
             </li>
             <li
               class="nav-link"
-              :class="{ active: $route.path === '/plane/projets' }"
+              :class="{
+                active: 
+                $route.path === '/plane/projets' ||
+                $route.path === '/plane/projets/ajouter'
+              }"
             >
               <router-link to="/plane/projets">
                 <i class="ri-briefcase-3-line icon"></i>
@@ -75,12 +79,6 @@
                 <span class="text nav-text">Annalitics</span>
               </router-link>
             </li>
-            <!-- <li class="nav-link">
-              <b>
-                <i class="ri-dashboard-3-line icon"></i>
-                <span class="text nav-text">DASHBOARD</span>
-              </b>
-            </li> -->
           </ul>
         </div>
 

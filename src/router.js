@@ -9,6 +9,11 @@ import cyclesPage from "./pages/cycles.page.vue";
 import annaliticsPage from "./pages/annalitics.page.vue";
 import profilePage from "./pages/profile.page.vue";
 
+
+/* components projects */
+import listeProjets from './components/projets/listsProject.vue'
+import ajouterProjets from './components/projets/addProject.vue'
+
 /* components cycles*/
 import cycleNavigateur from './components/cycles/navigateur.vue';
 import cycleItem1 from './components/cycles/cyclesComponents/item1.vue'
@@ -36,7 +41,10 @@ const routes = [
             {
                 path: 'projets',
                 component: projetPage,
-                children: []
+                children: [
+                    { path: "", component: listeProjets },
+                    { path: "ajouter", component: ajouterProjets },
+                ]
             },
             {
                 path: 'affichages',

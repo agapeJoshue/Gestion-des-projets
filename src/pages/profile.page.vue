@@ -8,6 +8,6 @@ export default {
 };
 </script>
 <template>
-  <header-vue title="Profile d'utilisateur" />
+  <header-vue title="Profile d'utilisateur"/>
   <router-view></router-view>
 </template>

@@ -8,6 +8,6 @@ export default {
 };
 </script>
 <template>
-  <header-vue title="Affichages" />
+  <header-vue icon="ri-stack-line" title="Affichages" />
   <router-view></router-view>
 </template>

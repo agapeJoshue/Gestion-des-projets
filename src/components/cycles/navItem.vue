@@ -23,6 +23,11 @@ a {
   padding: 1.2rem;
   height: 100%;
   width: 100%;
+  box-shadow: var(--box-shadow);
+  transition: var(--tran-03);
+}
+a:hover {
+  box-shadow: none;
 }
 .titre {
   display: flex;
@@ -36,7 +41,7 @@ i {
 }
 h3 {
   font-size: 1.1rem;
-  font-weight: 500;
+  font-weight: 600;
 }
 p{
     font-size: 1rem;

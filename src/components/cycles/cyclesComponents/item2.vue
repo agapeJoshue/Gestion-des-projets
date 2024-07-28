@@ -1,5 +1,5 @@
 <script>
-import backVue from "../back.vue";
+import backVue from "../../back.vue";
 
 export default {
   components: { backVue },
@@ -8,7 +8,7 @@ export default {
 
 <template>
   <div>
-    <back-vue />
+    <back-vue ULR="/plane/cycles" textAfficher="retour dans le menu" />
     <h1>Item 2</h1>
   </div>
 </template>

@@ -8,6 +8,5 @@ export default {
 };
 </script>
 <template>
-  <header-vue title="Les projets" />
-  <router-view></router-view>
+  <header-vue icon="ri-briefcase-3-line" title="Les projets" :btnCreateLink="true" btnCreateLinkValue="Ajouter Projet" btnCreateLinkUrl="/plane/projets/ajouter"/>
 </template>
