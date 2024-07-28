@@ -7,7 +7,7 @@ export default {
   },
 };
 </script>
+
 <template>
-  <header-vue title="Cycles ou Sprints" />
-  <router-view></router-view>
+  <header-vue icon="ri-contrast-line" title="Cycles actifs" />
 </template>

@@ -9,6 +9,15 @@ import cyclesPage from "./pages/cycles.page.vue";
 import annaliticsPage from "./pages/annalitics.page.vue";
 import profilePage from "./pages/profile.page.vue";
 
+/* components cycles*/
+import cycleNavigateur from './components/cycles/navigateur.vue';
+import cycleItem1 from './components/cycles/cyclesComponents/item1.vue'
+import cycleItem2 from './components/cycles/cyclesComponents/item2.vue'
+import cycleItem3 from './components/cycles/cyclesComponents/item3.vue'
+import cycleItem4 from './components/cycles/cyclesComponents/item4.vue'
+import cycleItem5 from './components/cycles/cyclesComponents/item5.vue'
+import cycleItem6 from './components/cycles/cyclesComponents/item6.vue'
+
 
 const routes = [
     {
@@ -37,7 +46,15 @@ const routes = [
             {
                 path: 'cycles',
                 component: cyclesPage,
-                children: []
+                children: [
+                    { path: "", component: cycleNavigateur },
+                    { path: "Vue-de-10000-pieds-de-tous-les-cycles-actifs", component: cycleItem1 },
+                    { path: "Obtenez-un-aperçu-de-chaque-cycle-actif", component: cycleItem2 },
+                    { path: "Comparez-les-burndowns", component: cycleItem3 },
+                    { path: "Identifiez-rapidement-les-problèmes-décisifs", component: cycleItem4 },
+                    { path: "Zoomer-sur-les-cycles-qui-nécessitent-une-attention-particulière", component: cycleItem5 },
+                    { path: "Garder-une-longueur-d-avance-sur-les-bloqueurs", component: cycleItem6 },
+                ]
             },
             {
                 path: 'annalitics',
