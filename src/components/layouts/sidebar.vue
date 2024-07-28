@@ -28,9 +28,9 @@
             <li
               class="nav-link"
               :class="{
-                active: 
-                $route.path === '/plane/projets' ||
-                $route.path === '/plane/projets/ajouter'
+                active:
+                  $route.path === '/plane/projets' ||
+                  $route.path === '/plane/projets/ajouter',
               }"
             >
               <router-link to="/plane/projets">
@@ -40,9 +40,15 @@
             </li>
             <li
               class="nav-link"
-              :class="{ active: $route.path === '/plane/affichages' }"
+              :class="{
+                active: 
+                $route.path === '/plane/affichages/tous-les-numeros' ||
+                $route.path === '/plane/affichages/tâche-assigné' ||
+                $route.path === '/plane/affichages/créé-une-problème' ||
+                $route.path === '/plane/affichages/souscrit'
+              }"
             >
-              <router-link to="/plane/affichages">
+              <router-link to="/plane/affichages/tous-les-numeros">
                 <i class="ri-stack-line icon"></i>
                 <span class="text nav-text">Affichages</span>
               </router-link>

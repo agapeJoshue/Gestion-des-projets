@@ -12,11 +12,11 @@
     --color-warning-variant: #ff8800;
 
     --color-dark: #363949;
-    --color-dark-variant: #677483;
+    --color-dark-variant: #5c5c69;
     --color-info-dark: #7d8da1;
 
-    --color-info-light: #dce1eb;
-    --color-light: rgba(132, 139, 200, 0.18);
+    --color-info-light: #dadfe9;
+    --color-light: rgba(132, 139, 200, 0.185);
 
     --color-background: #f6f6f9;
     --color-message : #e7e7e7;
@@ -43,7 +43,7 @@
     --color-white: #202528;
     --color-success-variant: #11cc00;
     --color-dark: #edeffd;
-    --color-dark-variant: #a3bdcc;
+    --color-dark-variant: #d2e5f0;
     --color-light: rgba(0, 0, 0, 0.4);
     --color-info-light: #dce1eb;
     --box-shadow: 0 2rem 3rem var(--color-light);

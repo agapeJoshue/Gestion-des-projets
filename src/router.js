@@ -14,6 +14,15 @@ import profilePage from "./pages/profile.page.vue";
 import listeProjets from './components/projets/listsProject.vue'
 import ajouterProjets from './components/projets/addProject.vue'
 
+
+/* components affichages */
+import indexAffichage from './components/affichages/indexAffichages.vue';
+import tousNumeros from './components/affichages/toutNumero.vue';
+import assigne from './components/affichages/assigne.vue';
+import cree from './components/affichages/cree.vue';
+import sousrcit from './components/affichages/souscrit.vue';
+
+
 /* components cycles*/
 import cycleNavigateur from './components/cycles/navigateur.vue';
 import cycleItem1 from './components/cycles/cyclesComponents/item1.vue'
@@ -49,7 +58,18 @@ const routes = [
             {
                 path: 'affichages',
                 component: affichagePage,
-                children: []
+                children: [
+                    {
+                        path: "", 
+                        component: indexAffichage,
+                        children: [
+                            { path: "tous-les-numeros", component: tousNumeros },
+                            { path: "tâche-assigné", component: assigne },
+                            { path: "créé-une-problème", component: cree },
+                            { path: "souscrit", component: sousrcit }
+                        ]
+                    }
+                ]
             },
             {
                 path: 'cycles',

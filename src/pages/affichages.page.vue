@@ -8,6 +8,5 @@ export default {
 };
 </script>
 <template>
-  <header-vue icon="ri-stack-line" title="Affichages" />
-  <router-view></router-view>
+  <header-vue icon="ri-stack-line" title="Toutes les questions" :btnCreateLink="true" btnCreateLinkValue="Ajouter une vue" btnCreateLinkUrl="" />
 </template>
