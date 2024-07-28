@@ -1,6 +1,6 @@
 <script>
 export default {
-    props: ["profile", "projectName"]
+  props: ["projectName", "description", "message"],
 };
 </script>
 
@@ -14,22 +14,28 @@ export default {
                     </div>
                     <div class="name-project">
                         <h3>{{ projectName }}</h3>
-                        <p>Bonjour</p>
+                        <p>{{ message }}</p>
                     </div>
                 </div>
                 <div class="note">
+                    <span class="ri-star-line"></span>
+                    <span class="ri-star-line"></span>
+                    <span class="ri-star-line"></span>
+                    <span class="ri-star-line"></span>
                     <span class="ri-star-line"></span>
                 </div>
             </div>
         </div>
         <div class="card-body">
-            <p>Plateforme de mise en relation entre architecte / entreprise et porteur de projet.</p>
+            <p>{{ description }}</p>
         </div>
         <div class="card-footer">
             <div class="lists-membre">
                 <span class="name-membre">M</span>
-                <span class="name-membre">M</span>
-                <span class="name-membre">M</span>
+                <span class="name-membre">A</span>
+                <span class="name-membre">J</span>
+                <span class="name-membre">G</span>
+                <span class="name-membre">G</span>
             </div>
             <router-link to="">
                 <i class="ri-settings-3-fill"></i>
@@ -70,6 +76,8 @@ export default {
   width: 100%;
 }
 .note {
+  display: flex;
+  gap: 3px;
   margin-right: 1.5rem;
   cursor: pointer;
 }

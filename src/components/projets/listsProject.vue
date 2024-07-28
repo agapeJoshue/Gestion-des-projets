@@ -1,8 +1,25 @@
 <template>
   <div class="listes">
-    <card-vue projectName="Hello Archi"/>
-    <card-vue projectName="Gestion des projets" />
-    <card-vue projectName="Gestion des notes ENI" />
+    <card-vue
+      projectName="Hello Archi"
+      description="Plateforme de mise en relation entre architecte / entreprise et porteur de projet."
+      message="BONJOUR"
+    />
+    <card-vue
+      projectName="Gestion des projets"
+      description="Plateforme de mise en relation entre architecte / entreprise et porteur de projet."
+      message="BONJOUR"
+    />
+    <card-vue
+      projectName="Gestion des notes ENI"
+      description="Plateforme de mise en relation entre architecte / entreprise et porteur de projet."
+      message="BONJOUR"
+    />
+    <card-vue
+      projectName="Gestion de reservation du train"
+      description="Plateforme de mise en relation entre architecte / entreprise et porteur de projet."
+      message="BONJOUR"
+    />
   </div>
 </template>
 
