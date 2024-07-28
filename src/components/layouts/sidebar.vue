@@ -82,7 +82,7 @@
             >
               <router-link to="/plane/annalitics">
                 <i class="ri-bar-chart-fill icon"></i>
-                <span class="text nav-text">Annalitics</span>
+                <span class="text nav-text">Annalytics</span>
               </router-link>
             </li>
           </ul>

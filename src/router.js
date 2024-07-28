@@ -33,6 +33,10 @@ import cycleItem5 from './components/cycles/cyclesComponents/item5.vue'
 import cycleItem6 from './components/cycles/cyclesComponents/item6.vue'
 
 
+/* component annalytics */
+import indexAnnalyse from './components/annalitics/index.vue'
+
+
 const routes = [
     {
         path: '/',
@@ -87,7 +91,12 @@ const routes = [
             {
                 path: 'annalitics',
                 component: annaliticsPage,
-                children: []
+                children: [
+                    {
+                        path: "",
+                        component: indexAnnalyse
+                    }
+                ]
             },
             {
                 path: 'profile',

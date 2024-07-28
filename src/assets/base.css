@@ -1,6 +1,7 @@
 :root {
     --color-primary: #7380ec;
     --color-primary-variant: #3e4edf;
+    --color-primary-transparent: #3e4edf1e;
 
     --color-danger: #ff7782;
     --color-danger-variant: #ff3041;

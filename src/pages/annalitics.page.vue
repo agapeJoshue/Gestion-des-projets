@@ -8,6 +8,5 @@ export default {
 };
 </script>
 <template>
-  <header-vue icon="ri-bar-chart-fill" title="Annalitics" />
-  <router-view></router-view>
+  <header-vue icon="ri-bar-chart-fill" title="Annalytics (Portée et demande)" />
 </template>
