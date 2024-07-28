@@ -394,7 +394,7 @@ section {
   height: 100vh;
   width: calc(100% - 250px);
   background: var(--color-background);
-  transition: var(--tran-05);
+  transition: var(--tran-03);
 }
 
 .sidebar.close ~ .section {
