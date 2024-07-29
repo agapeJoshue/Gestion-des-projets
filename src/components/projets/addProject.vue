@@ -101,8 +101,10 @@ export default {
                   id=""
                   :value="userInfo.id"
                 />
-                <span
-                  >{{ userInfo.username }}
+                <span class="infoUser"
+                  >
+                  <small class="indice">{{ userInfo.indice }}</small>
+                  <b>{{ userInfo.username }}</b>
                   <i
                     class="ri-check-fill success"
                     v-if="this.checkUser(userInfo.id)"
@@ -223,5 +225,24 @@ legend {
 .ri-check-fill {
   margin-left: 0.7rem;
   font-size: 0.8rem;
+}
+.indice {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--color-info-dark);
+  color: #fff;
+}
+b {
+  font-size: .9rem;
+  font-weight: 500;
+}
+.infoUser {
+  display: flex;
+  align-items: center;
+  gap: 7px;
 }
 </style>
