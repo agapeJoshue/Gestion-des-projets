@@ -68,8 +68,8 @@ export default {
         <div class="group-form-group">
           <div class="form-group">
             <label for="numero">Identifiant</label>
-            <input type="text" v-model="numero" id="numero" />
-            <small class="danger">{{ numero }}</small>
+            <input type="text" v-model="numero" id="numero" placeholder="Identifiant" required/>
+            <small class="danger"></small>
           </div>
           <div class="form-group">
             <label for="titre">Titre du projet</label>
@@ -78,16 +78,16 @@ export default {
               v-model="titre"
               rows="1"
               id="titre"
+              placeholder="Thème du plojet"
+              required
             ></textarea>
-            <small class="danger">{{ titre }}</small>
+            <small class="danger"></small>
           </div>
         </div>
         <div class="form-group">
           <label for="description">Description du projet</label>
-          <textarea v-model="description" id="description" rows="3"></textarea>
-          <small class="danger">{{
-            description
-          }}</small>
+          <textarea v-model="description" id="description" rows="3" placeholder="description du projet" required></textarea>
+          <small class="danger"></small>
         </div>
         <div class="form-group">
           <fieldset>
