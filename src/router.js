@@ -9,6 +9,9 @@ import cyclesPage from "./pages/cycles.page.vue";
 import annaliticsPage from "./pages/annalitics.page.vue";
 import profilePage from "./pages/profile.page.vue";
 
+/* components travails */
+import indexTravail from './components/travails/index.vue';
+
 /* components projects */
 import listeProjets from './components/projets/listsProject.vue';
 import ajouterProjets from './components/projets/addProject.vue';
@@ -45,7 +48,9 @@ const routes = [
             {
                 path: 'travail',
                 component: votreTravailPage,
-                children: []
+                children: [
+                    { path: "", component: indexTravail },
+                ]
             },
             {
                 path: 'projets',

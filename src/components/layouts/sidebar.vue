@@ -91,7 +91,7 @@
         <div class="bottom-content">
           <li class="" :class="{ activeP: $route.path === '/plane/profile' }">
             <router-link to="/plane/profile">
-              <i class="ri-user-line icon"></i>
+              <i class="ri-account-circle-line icon"></i>
               <span class="text nav-text">Votre profile</span>
             </router-link>
           </li>

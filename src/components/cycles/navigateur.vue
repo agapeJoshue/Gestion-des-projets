@@ -25,7 +25,7 @@ export default {
 
             <navItemVue urlNavigator="/plane/cycles/Obtenez-un-aperçu-de-chaque-cycle-actif" icon="ri-loader-2-fill" titre="Obtenez un aperçu de chaque cycle actif." description="Suivez les indicateurs de haut niveau pour tous les cycles actifs, voyez leur état d'avancement et ayez une idée de la portée par rapport au échéances."/>
 
-            <navItemVue urlNavigator="/plane/cycles/Comparez-les-burndowns" icon="ri-line-chart-line" titre="Comparez les burndowns" description="Surveillez les performances de  chacune de vos équipes en jetant un coup d'oeil au rapport d'avancement de chaque cycle."/>
+            <navItemVue urlNavigator="/plane/cycles/Comparez-les-burndowns" icon="ri-numbers-line" titre="Comparez les burndowns" description="Surveillez les performances de  chacune de vos équipes en jetant un coup d'oeil au rapport d'avancement de chaque cycle."/>
 
             <navItemVue urlNavigator="/plane/cycles/Identifiez-rapidement-les-problèmes-décisifs" icon="ri-spam-2-line" titre="Identifiez rapidement les problèmes décisifs." description="Prévisualisez les problèmes prioritaires pour chaque cycles par rapport aux dates d'échéance. Visualisez-les tous par cycle en un clic."/>
 

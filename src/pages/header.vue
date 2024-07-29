@@ -32,6 +32,7 @@ export default {
   align-items: center;
   color: var(--color-info-dark);
   padding-right: 1rem;
+  transition: var(--tran-03);
 }
 .title-header {
   display: flex;
